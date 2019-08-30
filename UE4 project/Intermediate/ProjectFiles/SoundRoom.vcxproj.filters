@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\SoundRoom.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{1AE78DA9-2EAC-4996-B1AD-A9C2BC6B7089}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SoundRoom.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SoundRoomEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\CMakeLists.txt" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{1ABAEADA-26F9-4C73-95A2-59F45F9FE048}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{3ABDD08B-D0BD-4A8C-9442-EAE074FE323B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\OSC">
+      <UniqueIdentifier>{0B60B04F-E1A1-430B-949A-BB270FCF3C43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\OSC\Source">
+      <UniqueIdentifier>{3A647D4D-7F58-4FC7-86CE-DE7B1FE1740D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\OSC\Source\OSC">
+      <UniqueIdentifier>{F6830C31-9ED3-48B9-9208-028F91A69135}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\OSC\Source\OSC\OSC.Build.cs">
+      <Filter>Plugins\OSC\Source\OSC</Filter>
+    </None>
+    <Filter Include="Plugins\OSC\Source\OSC\Private">
+      <UniqueIdentifier>{F984CC77-F832-46D7-9370-34CB2985684C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OSC\Source\OSC\Private\OscModule.cpp">
+      <Filter>Plugins\OSC\Source\OSC\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Private\OscPrivatePCH.h">
+      <Filter>Plugins\OSC\Source\OSC\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\OSC\Source\OSC\Private\OscSettings.cpp">
+      <Filter>Plugins\OSC\Source\OSC\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Private\OscSettings.h">
+      <Filter>Plugins\OSC\Source\OSC\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OSC\Source\OSC\Private\Common">
+      <UniqueIdentifier>{709D6812-BFC9-4296-B78E-B51996AA47E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\OSC\Source\OSC\Private\Common\oscpack">
+      <UniqueIdentifier>{19FBFEA1-A438-4A63-BEC1-83E7E4DE2FC5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\OSC\Source\OSC\Private\Common\oscpack\osc">
+      <UniqueIdentifier>{BF46F326-8D13-4954-BED8-3217172718B2}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Private\Common\oscpack\osc\OscHostEndianness.h">
+      <Filter>Plugins\OSC\Source\OSC\Private\Common\oscpack\osc</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\OSC\Source\OSC\Private\Common\oscpack\osc\OscOutboundPacketStream.cpp">
+      <Filter>Plugins\OSC\Source\OSC\Private\Common\oscpack\osc</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Private\Common\oscpack\osc\OscOutboundPacketStream.h">
+      <Filter>Plugins\OSC\Source\OSC\Private\Common\oscpack\osc</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\OSC\Source\OSC\Private\Common\oscpack\osc\OscReceivedElements.cpp">
+      <Filter>Plugins\OSC\Source\OSC\Private\Common\oscpack\osc</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Private\Common\oscpack\osc\OscReceivedElements.h">
+      <Filter>Plugins\OSC\Source\OSC\Private\Common\oscpack\osc</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\OSC\Source\OSC\Private\Common\oscpack\osc\OscTypes.cpp">
+      <Filter>Plugins\OSC\Source\OSC\Private\Common\oscpack\osc</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Private\Common\oscpack\osc\OscTypes.h">
+      <Filter>Plugins\OSC\Source\OSC\Private\Common\oscpack\osc</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OSC\Source\OSC\Private\Receive">
+      <UniqueIdentifier>{90B16406-5DEE-44A7-815B-12EA7CDD5593}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OSC\Source\OSC\Private\Receive\OscDispatcher.cpp">
+      <Filter>Plugins\OSC\Source\OSC\Private\Receive</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Private\Receive\OscDispatcher.h">
+      <Filter>Plugins\OSC\Source\OSC\Private\Receive</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\OSC\Source\OSC\Private\Receive\OscReceiverInputKey.cpp">
+      <Filter>Plugins\OSC\Source\OSC\Private\Receive</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Private\Receive\OscReceiverInputKey.h">
+      <Filter>Plugins\OSC\Source\OSC\Private\Receive</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OSC\Source\OSC\Public">
+      <UniqueIdentifier>{0F67E54F-662F-428E-9D25-3E6593860A49}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Public\Osc.h">
+      <Filter>Plugins\OSC\Source\OSC\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OSC\Source\OSC\Public\Common">
+      <UniqueIdentifier>{69704F51-0A60-4740-8816-A5A3C2BD3481}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Public\Common\OscDataElemStruct.h">
+      <Filter>Plugins\OSC\Source\OSC\Public\Common</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\OSC\Source\OSC\Public\Common\OscFunctionLibrary.cpp">
+      <Filter>Plugins\OSC\Source\OSC\Public\Common</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Public\Common\OscFunctionLibrary.h">
+      <Filter>Plugins\OSC\Source\OSC\Public\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Public\Common\OscMessageStruct.h">
+      <Filter>Plugins\OSC\Source\OSC\Public\Common</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\OSC\Source\OSC\Public\Receive">
+      <UniqueIdentifier>{C3B0EE61-64D6-4A93-B74D-224E81460EC5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\OSC\Source\OSC\Public\Receive\OscReceiverActor.cpp">
+      <Filter>Plugins\OSC\Source\OSC\Public\Receive</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Public\Receive\OscReceiverActor.h">
+      <Filter>Plugins\OSC\Source\OSC\Public\Receive</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\OSC\Source\OSC\Public\Receive\OscReceiverComponent.cpp">
+      <Filter>Plugins\OSC\Source\OSC\Public\Receive</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Public\Receive\OscReceiverComponent.h">
+      <Filter>Plugins\OSC\Source\OSC\Public\Receive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\OSC\Source\OSC\Public\Receive\OscReceiverInterface.h">
+      <Filter>Plugins\OSC\Source\OSC\Public\Receive</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\OSC\OSC.uplugin">
+      <Filter>Plugins\OSC</Filter>
+    </None>
+    <Filter Include="Plugins\OSC\Resources">
+      <UniqueIdentifier>{7E0FFFE3-E124-4347-8152-14806D56B7F2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\OSC\Resources\Icon128.png">
+      <Filter>Plugins\OSC\Resources</Filter>
+    </None>
+    <Filter Include="Source\SoundRoom">
+      <UniqueIdentifier>{D7037D40-402B-4829-8339-2CED99CA0912}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SoundRoom\SoundRoom.Build.cs">
+      <Filter>Source\SoundRoom</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\SoundRoom\SoundRoom.cpp">
+      <Filter>Source\SoundRoom</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SoundRoom\SoundRoom.h">
+      <Filter>Source\SoundRoom</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SoundRoom\SoundRoomCharacter.cpp">
+      <Filter>Source\SoundRoom</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SoundRoom\SoundRoomCharacter.h">
+      <Filter>Source\SoundRoom</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SoundRoom\SoundRoomGameMode.cpp">
+      <Filter>Source\SoundRoom</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SoundRoom\SoundRoomGameMode.h">
+      <Filter>Source\SoundRoom</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SoundRoom\SoundRoomHUD.cpp">
+      <Filter>Source\SoundRoom</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SoundRoom\SoundRoomHUD.h">
+      <Filter>Source\SoundRoom</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SoundRoom\SoundRoomProjectile.cpp">
+      <Filter>Source\SoundRoom</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SoundRoom\SoundRoomProjectile.h">
+      <Filter>Source\SoundRoom</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

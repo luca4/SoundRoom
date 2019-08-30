@@ -1,0 +1,57 @@
+C:\Users\lucar\Documents\UE4 Projects\SoundRoom_UE4.22\Plugins\OSC\Intermediate\Build\Win64\UE4\Shipping\OSC\Definitions.OSC.h
+C:\Users\lucar\Documents\UE4 Projects\SoundRoom_UE4.22\Plugins\OSC\Intermediate\Build\Win64\UE4\Inc\OSC\OSC.init.gen.cpp
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\lucar\Documents\UE4 Projects\SoundRoom_UE4.22\Plugins\OSC\Intermediate\Build\Win64\UE4\Inc\OSC\OscDataElemStruct.gen.cpp
+C:\Users\lucar\Documents\UE4 Projects\SoundRoom_UE4.22\Plugins\OSC\Source\OSC/Public/Common/OscDataElemStruct.h
+C:\Users\lucar\Documents\UE4 Projects\SoundRoom_UE4.22\Plugins\OSC\Intermediate\Build\Win64\UE4\Inc\OSC\OscDataElemStruct.generated.h
+C:\Users\lucar\Documents\UE4 Projects\SoundRoom_UE4.22\Plugins\OSC\Intermediate\Build\Win64\UE4\Inc\OSC\OscDispatcher.gen.cpp
+C:\Users\lucar\Documents\UE4 Projects\SoundRoom_UE4.22\Plugins\OSC\Source\OSC/Private/Receive/OscDispatcher.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Networking\Public\Interfaces\IPv4\IPv4Address.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Networking\Public\Interfaces/IPv4/IPv4SubnetMask.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Containers\CircularQueue.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Containers/CircularBuffer.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Networking\Public\Common\UdpSocketReceiver.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Serialization/ArrayReader.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Sockets\Public\Sockets.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Sockets\Public\SocketTypes.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Sockets\Public\SocketSubsystem.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Sockets\Public\AddressInfoTypes.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Networking\Public\Interfaces/IPv4/IPv4Endpoint.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\utility
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\tuple
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\xutility
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\climits
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\cstring
+C:\Users\lucar\Documents\UE4 Projects\SoundRoom_UE4.22\Plugins\OSC\Intermediate\Build\Win64\UE4\Inc\OSC\OscDispatcher.generated.h
+C:\Users\lucar\Documents\UE4 Projects\SoundRoom_UE4.22\Plugins\OSC\Intermediate\Build\Win64\UE4\Inc\OSC\OscFunctionLibrary.gen.cpp
+C:\Users\lucar\Documents\UE4 Projects\SoundRoom_UE4.22\Plugins\OSC\Source\OSC/Public/Common/OscFunctionLibrary.h
+C:\Users\lucar\Documents\UE4 Projects\SoundRoom_UE4.22\Plugins\OSC\Source\OSC\Public\Common\OscMessageStruct.h
+C:\Users\lucar\Documents\UE4 Projects\SoundRoom_UE4.22\Plugins\OSC\Intermediate\Build\Win64\UE4\Inc\OSC\OscMessageStruct.generated.h
+C:\Users\lucar\Documents\UE4 Projects\SoundRoom_UE4.22\Plugins\OSC\Intermediate\Build\Win64\UE4\Inc\OSC\OscFunctionLibrary.generated.h
+C:\Users\lucar\Documents\UE4 Projects\SoundRoom_UE4.22\Plugins\OSC\Intermediate\Build\Win64\UE4\Inc\OSC\OscMessageStruct.gen.cpp
+C:\Users\lucar\Documents\UE4 Projects\SoundRoom_UE4.22\Plugins\OSC\Intermediate\Build\Win64\UE4\Inc\OSC\OscReceiverActor.gen.cpp
+C:\Users\lucar\Documents\UE4 Projects\SoundRoom_UE4.22\Plugins\OSC\Source\OSC/Public/Receive/OscReceiverActor.h
+C:\Users\lucar\Documents\UE4 Projects\SoundRoom_UE4.22\Plugins\OSC\Source\OSC\Public\Receive\OscReceiverInterface.h
+C:\Users\lucar\Documents\UE4 Projects\SoundRoom_UE4.22\Plugins\OSC\Intermediate\Build\Win64\UE4\Inc\OSC\OscReceiverActor.generated.h
+C:\Users\lucar\Documents\UE4 Projects\SoundRoom_UE4.22\Plugins\OSC\Intermediate\Build\Win64\UE4\Inc\OSC\OscReceiverComponent.gen.cpp
+C:\Users\lucar\Documents\UE4 Projects\SoundRoom_UE4.22\Plugins\OSC\Source\OSC/Public/Receive/OscReceiverComponent.h
+C:\Users\lucar\Documents\UE4 Projects\SoundRoom_UE4.22\Plugins\OSC\Intermediate\Build\Win64\UE4\Inc\OSC\OscReceiverComponent.generated.h
+C:\Users\lucar\Documents\UE4 Projects\SoundRoom_UE4.22\Plugins\OSC\Intermediate\Build\Win64\UE4\Inc\OSC\OscSettings.gen.cpp
+C:\Users\lucar\Documents\UE4 Projects\SoundRoom_UE4.22\Plugins\OSC\Source\OSC/Private/OscSettings.h
+C:\Users\lucar\Documents\UE4 Projects\SoundRoom_UE4.22\Plugins\OSC\Source\OSC\Private\Receive\OscReceiverInputKey.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\memory
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\iosfwd
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\cstdio
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\cwchar
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\typeinfo
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\vcruntime_typeinfo.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\vcruntime_exception.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\eh.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_terminate.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\xmemory
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\cstdint
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\limits
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\cfloat
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\xatomic.h
+C:\Users\lucar\Documents\UE4 Projects\SoundRoom_UE4.22\Plugins\OSC\Intermediate\Build\Win64\UE4\Inc\OSC\OscSettings.generated.h

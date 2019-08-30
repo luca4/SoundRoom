@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-OSC.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Luca\Documents\Unreal Projects\SoundRoom_UE4.22\Intermediate\Build\Win64\SoundRoomEditor\Development\UnrealEd\SharedPCH.UnrealEd.h.obj"
+"C:\Users\Luca\Documents\Unreal Projects\SoundRoom_UE4.22\Plugins\OSC\Intermediate\Build\Win64\UE4Editor\Development\OSC\Module.OSC.cpp.obj"
+"C:\Users\Luca\Documents\Unreal Projects\SoundRoom_UE4.22\Plugins\OSC\Intermediate\Build\Win64\UE4Editor\Development\OSC\Module.OSC.gen.cpp.obj"
+"C:\Users\Luca\Documents\Unreal Projects\SoundRoom_UE4.22\Plugins\OSC\Intermediate\Build\Win64\UE4Editor\Development\OSC\Default.rc2.res"
+/OUT:"C:\Users\Luca\Documents\Unreal Projects\SoundRoom_UE4.22\Plugins\OSC\Intermediate\Build\Win64\UE4Editor\Development\OSC\UE4Editor-OSC.lib"
+/INCLUDE:IMPLEMENT_MODULE_OSC
