@@ -1,0 +1,67 @@
+#N canvas 2011 411 1366 685 10;
+#X msg 166 373 blastTime \$1;
+#X msg 268 373 scatterTime \$1;
+#X msg 383 373 dispersion \$1;
+#X msg 479 373 distance \$1;
+#X msg 592 373 waveSpeed \$1;
+#X msg 709 373 windSpeed \$1;
+#X floatatom 166 347 5 0 0 0 - - -;
+#X floatatom 268 348 5 0 0 0 - - -;
+#X floatatom 383 348 5 0 0 0 - - -;
+#X floatatom 479 348 5 0 0 0 - - -;
+#X floatatom 592 348 5 0 0 0 - - -;
+#X floatatom 709 348 5 0 0 0 - - -;
+#X obj 79 211 bng 32 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 79 562 dac~;
+#X obj 383 212 vsl 15 128 0 1 0 0 empty dispersion empty 0 -9 0 10
+-262144 -1 -1 6350 1;
+#X obj 592 212 vsl 15 128 0 1000 0 0 empty waveSpeed empty 0 -9 0 10
+-262144 -1 -1 4321 1;
+#X obj 709 212 vsl 15 128 0 1000 0 0 empty windSpeed empty 0 -9 0 10
+-262144 -1 -1 7620 1;
+#X obj 479 212 vsl 15 128 0 1000 0 0 empty distance empty 0 -9 0 10
+-262144 -1 -1 127 1;
+#X obj 268 212 vsl 15 128 0.1 100 0 0 empty scatterTime empty 0 -9
+0 10 -262144 -1 -1 496 1;
+#X obj 214 500 *~ 0.5;
+#X obj 79 500 *~ 0.5;
+#X obj 79 530 hip~ 10;
+#X obj 79 427 explosion~ 44100 441000;
+#X obj 79 111 mrpeach/unpackOSC;
+#X obj 79 140 mrpeach/routeOSC /explTrigger;
+#X obj 267 140 mrpeach/routeOSC /blastTime;
+#X msg 913 210 \; blastTime 0.1 \; scatterTime 4 \; dispersion 0.5
+\; distance 10 \; waveSpeed 340.27 \; windSpeed 600 \;;
+#X obj 913 186 loadbang;
+#X obj 79 77 mrpeach/udpreceive 9996;
+#X connect 0 0 22 0;
+#X connect 1 0 22 0;
+#X connect 2 0 22 0;
+#X connect 3 0 22 0;
+#X connect 4 0 22 0;
+#X connect 5 0 22 0;
+#X connect 6 0 0 0;
+#X connect 7 0 1 0;
+#X connect 8 0 2 0;
+#X connect 9 0 3 0;
+#X connect 10 0 4 0;
+#X connect 11 0 5 0;
+#X connect 12 0 22 0;
+#X connect 14 0 8 0;
+#X connect 15 0 10 0;
+#X connect 16 0 11 0;
+#X connect 17 0 9 0;
+#X connect 18 0 7 0;
+#X connect 19 0 21 0;
+#X connect 20 0 21 0;
+#X connect 21 0 13 0;
+#X connect 21 0 13 1;
+#X connect 22 0 20 0;
+#X connect 22 1 19 0;
+#X connect 23 0 24 0;
+#X connect 23 0 25 0;
+#X connect 24 0 12 0;
+#X connect 25 0 6 0;
+#X connect 27 0 26 0;
+#X connect 28 0 23 0;
